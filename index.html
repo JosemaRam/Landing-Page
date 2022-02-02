@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Anne Baileys - Suscripción</title>
+        <link rel=stylesheet href="style.css">
+    </head>
+    <body>
+        <h1>Anne Baileys-Nuevo Lanzamiento</h1>
+        <img src="images/libro.jpg" id="libro"  alt="librtoabierto">        
+        <div class="formulario">
+          <h2>Suscripción</h2>
+          <form action="/action_page.php" method="get">
+            <div class="form-line">
+                 <label for="nombre">Nombre</label>
+                 <input name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <br>
+            <div class="form-line">
+                <label for="email">Email</label>
+                <input name="email" id="email" placeholder="Email">
+           </div>
+            
+           <p>Género:</p>
+            <div class="genero">
+                <input type="checkbox" id="Masculino" name="genero" value="Masculino">
+                <label for="Masculino">Masculino</label><br>
+                <input type="checkbox" id="Femenino" name="genero" value="Femenino">
+                <label for="Femenino">Femenino</label><br>
+            </div>
+            <br>
+            <div class="form-line">
+                <label for="Edad">Edad</label>
+                <select name="edad" id="edad">
+                    <option value="10-20">10-20</option>
+                    <option value="21-30">20-30</option>
+                    <option value="41-50">40-50</option>
+                    <option value="51-60">50-60</option>
+                    <option value="61-70">60-70</option>
+                    <option value="71-80">70-80</option>
+                </select>
+            </div>        
+            <br>
+            <div class="botones"> 
+              <button  type="submit" value="Ingresar">Ingresar</button>
+              <button  type="reset"  value="Reset">Limpiar</button>
+            </div>  
+          </form>
+    </body>
