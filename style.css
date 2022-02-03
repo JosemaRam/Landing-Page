@@ -5,11 +5,12 @@ body {
 }
 
 img#libro {
-        width: 100px;
-        height: 100px;            
+        width: 200px;
+        height: 200px;            
 }
 
 h1 {
+    background-color:rgb(83, 175, 167);
     text-align: center;
     font-size: xx-large;
     color: darkgoldenrod;
@@ -23,7 +24,7 @@ h2 {
 }
 
 div.formulario {
-    width: 250px;
+    width: 350px;
     background-color: white;
     padding: 10px;
     margin: auto;
@@ -34,10 +35,28 @@ div.formulario {
     text-align: left;
     }
 
-div.genero {
-    padding-left: 25px;
+label {
+    width: 120px;
+    display: inline-block;
 }
 
+div.form-line { 
+    font-weight: 550;
+}
+
+input {
+    font-size: small;
+    padding: 7px 7px;
+}
+
+div.genero {
+    padding-left: 120px;
+    }
+
+p {
+    font-weight: 550;
+}    
+    
 button {
     background-color: coral;
     color:whitesmoke;
