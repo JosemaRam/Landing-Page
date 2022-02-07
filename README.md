@@ -8,3 +8,5 @@ Le interesa conseguir al menos los siguientes datos:
 2. Email
 3. Género
 4. Edad
+
+Proyecto contiene 3 páginas, una landing page, una tabla con los datos de los suscriptores y una que representa el modelo de una ficha de datos de aquellos suscritos. Cada archivo .html tiene su respectivo archivo .css
