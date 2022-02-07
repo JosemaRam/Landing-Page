@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/bookpattern.jpg); 
+    background-repeat: repeat;
+    font-size: medium;  
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    background-color:rgb(83, 175, 167);
+    color: rgb(218, 170, 49);
+    text-shadow: 2px 2px 2px black;
+}
+
+table, td, th {
+    background-color: white;
+    font: 400;
+    border: 1px solid black;
+}
