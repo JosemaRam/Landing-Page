@@ -1,0 +1,40 @@
+body {
+    background-image: url(images/bookpattern.jpg); 
+    background-repeat: repeat;
+    font-size: medium;
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    background-color:rgb(83, 175, 167);
+    color: rgb(218, 170, 49);
+    text-shadow: 2px 2px 2px black;
+}
+
+div.ficha {
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    font-weight: 400;  
+    border-style: solid;
+    border-color: coral;
+    text-align: center;
+}
+
+b {
+    font-weight: 700;
+}
+
+button {
+    background-color: coral;
+    color:whitesmoke;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 15%;
+}
